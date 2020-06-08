@@ -11,7 +11,7 @@ import com.pack.moviemvvm.data.vo.Result
 class MainActivityViewModel(private val moviePageListRepository: MoviePageListRepository):
     ViewModel() {
 
-
+//hello
     private val compositeDisposable = CompositeDisposable()
 
     val  moviePagedList : LiveData<PagedList<Result>> by lazy {
