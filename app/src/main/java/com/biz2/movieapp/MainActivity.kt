@@ -22,7 +22,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-//sdas
+//sdasd
     private lateinit var viewModel: MainActivityViewModel
 
     lateinit var movirRepository: MoviePageListRepository
